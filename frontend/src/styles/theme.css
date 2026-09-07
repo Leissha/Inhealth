@@ -1,0 +1,26 @@
+:root {
+  --background: 210 40% 98%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --primary: 205 85% 46%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222 47% 20%;
+  --muted: 210 30% 96%;
+  --muted-foreground: 215 16% 47%;
+  --border: 214 32% 91%;
+  --sidebar: 207 60% 96%;
+  --sidebar-border: 210 35% 90%;
+  --surface-soft: 207 70% 97%;
+  --surface-blue: 205 80% 95%;
+  --success: 145 55% 40%;
+  --warning: 38 92% 48%;
+  --danger: 5 75% 55%;
+  --chart-primary: 205 85% 50%;
+  --chart-secondary: 190 70% 43%;
+  --chart-grid: 214 32% 91%;
+  --radius: 1.125rem;
+  --shadow-panel: 0 10px 30px hsl(220 70% 35% / 0.045);
+}
+

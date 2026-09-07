@@ -1,0 +1,16 @@
+[Unit]
+Description=Inhealth serial ingestion and actuator control
+After=network.target mariadb.service
+
+[Service]
+User=admin
+SupplementaryGroups=dialout
+WorkingDirectory=/home/admin/inhealth/webapp
+EnvironmentFile=/home/admin/inhealth/webapp/.env
+ExecStart=/home/admin/inhealth/venv/bin/python -m edge.main
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target

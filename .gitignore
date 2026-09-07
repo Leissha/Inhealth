@@ -1,0 +1,8 @@
+.env
+.venv/
+.pnpm-store/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
